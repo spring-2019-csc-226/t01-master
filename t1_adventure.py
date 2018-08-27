@@ -1,8 +1,8 @@
 ######################################################################
-# Author: Dr. Scott Heggen      TODO: Change this to your names
-# Username: heggens             TODO: Change this to your usernames
+# Author: Emily Lovell & Scott Heggen       TODO: Change this to your names
+# Username: lovelle & heggens               TODO: Change this to your usernames
 #
-# Assignment: T1: Choose Your Own Adventure
+# Assignment: T01: Choose Your Own Adventure
 #
 # Purpose: To create a choose-your-own-adventure style game.
 # Each "twist" in the story is from a different group. The resulting story
@@ -61,12 +61,10 @@ else:
     print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
     sleep(delay)
 
-
 if dead == True:
+    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
     quit()
 
-
-#########################################################################################################
 #########################################################################################################
 # TODO Add your part of the story here. Keep in mind you may NOT be coming right after the example above.
 
@@ -76,3 +74,9 @@ if dead == True:
 
 
 #########################################################################################################
+
+# The following is the end of the story. Don't change this section, unless you really want to
+# (though it may not be used in the final story. Or will it...)
+print("Look at that! You made it to the end of the story without dying! ")
+print("Congratulations... now go play again and find an interesting way to perish. ")
+print("Try again by hitting the green play button.")
