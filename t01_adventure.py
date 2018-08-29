@@ -41,7 +41,7 @@ sleep(delay)
 # You will learn more by NOT copy and pasting this section. Write your section on your own, and when you get stuck,
 # refer to this code to help you get unstuck. Of course, raise your hand if you get really stuck.
 
-direction = input("Which direction would you like to go? [North/South/East/West]")
+direction = input("Which direction would you like to go? [North/South/East/West]" )
 
 if direction == "North":
     # Good choice!
