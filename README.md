@@ -1,11 +1,11 @@
 # T01: Choose Your Own Adventure
 
-Name 1: ____________
+Name 1: 
 
-Name 2: ____________
+Name 2: 
 
-Name 3 (if needed): ____________
+Name 3 (if needed):
 
-Repository Link: ______________
+Repository Link: 
 
-Google Document Link: ______________
+Google Document Link: 

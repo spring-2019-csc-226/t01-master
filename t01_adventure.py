@@ -25,7 +25,7 @@ username = input("What do they call you, unworthy adversary? ")
 #########################################################################################################
 # The following is the first part of the story. Don't change this section.
 print()
-print("Welcome,", username, ", to the labyrinth.")
+print("Welcome, " + username + ", to the labyrinth.")
 sleep(delay)
 print("Before you lies two paths. One path leads to treasures of unimaginable worth.")
 print("The other, certain death. Choose wisely.")
@@ -41,7 +41,7 @@ sleep(delay)
 # You will learn more by NOT copy and pasting this section. Write your section on your own, and when you get stuck,
 # refer to this code to help you get unstuck. Of course, raise your hand if you get really stuck.
 
-direction = input("Which direction would you like to go? [North/South/East/West]" )
+direction = input("Which direction would you like to go? [North/South/East/West] " )
 
 if direction == "North":
     # Good choice!
@@ -53,16 +53,16 @@ elif direction == "South":
     sleep(delay)
     print("Oops. Turns out the cave was home to a nasty grizzly bear. ")
     print("Running seems like a good idea now. But... it's really, really dark.")
-    print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
+    print("You turn and run like the wind. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
     print("He eats you. You are delicious.")
     dead = True
 else:
     # Neutral choice
-    print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+    print("You're in another part of the cave. It is equally dark and equally uninteresting. Please get me out of here!")
     sleep(delay)
 
 if dead == True:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+    print("Oh no! You died. Better luck next time!. ")
     quit()
 
 #########################################################################################################
@@ -79,4 +79,3 @@ if dead == True:
 # (though it may not be used in the final story. Or will it...)
 print("Look at that! You made it to the end of the story without dying! ")
 print("Congratulations... now go play again and find an interesting way to perish. ")
-print("Try again by hitting the green play button.")
